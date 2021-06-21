@@ -1,0 +1,31 @@
+{
+  "name": "cocktailapi",
+  "version": "1.0.0",
+  "description": "Api wrapper for cocktailDB with multi ingredient filter, pagination, and cocktail insert",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamstu/cocktailAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamstu/cocktailAPI/issues"
+  },
+  "homepage": "https://github.com/iamstu/cocktailAPI#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "mocha": "^9.0.1",
+    "nyc": "^15.1.0"
+  }
+}
